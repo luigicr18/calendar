@@ -1,0 +1,44 @@
+.calendarBody {
+    height: 300px;
+    width: 250px;
+    border: 1px solid black;
+    display: -webkit-inline-box;
+}
+
+.calendarbox {
+    height: 30px;
+    width: 12%;
+    margin: 1px;
+    display: inline-grid;
+    border: 1px solid black;
+}
+
+.headerMonth{
+    font-size: 2em;
+    font-weight: bolder;
+    display: inline-block;
+    width: inherit;
+    margin-bottom: 10px;
+}
+.headerDay {
+    height: 30px;
+    width: 12%;
+    margin: 1px;
+    display: inline-grid;
+}
+
+.classWeekend{
+    background-color: yellow
+}
+
+.classPrintedDay{
+    background-color: green
+}
+
+.invalidDay{
+    background-color: gray
+}
+
+.classHolyday{
+    background-color: pink
+}
